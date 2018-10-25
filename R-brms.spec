@@ -4,28 +4,12 @@
 #
 Name     : R-brms
 Version  : 2.6.0
-Release  : 17
+Release  : 18
 URL      : https://cran.r-project.org/src/contrib/brms_2.6.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/brms_2.6.0.tar.gz
 Summary  : Bayesian Regression Models using 'Stan'
 Group    : Development/Tools
 License  : GPL-3.0
-Requires: R-Rcpp
-Requires: R-StanHeaders
-Requires: R-abind
-Requires: R-backports
-Requires: R-bayesplot
-Requires: R-bridgesampling
-Requires: R-coda
-Requires: R-ggplot2
-Requires: R-gridExtra
-Requires: R-matrixStats
-Requires: R-nleqslv
-Requires: R-rstan
-Requires: R-rstantools
-Requires: R-shinystan
-Requires: R-shinythemes
-Requires: R-threejs
 BuildRequires : R-Rcpp
 BuildRequires : R-StanHeaders
 BuildRequires : R-abind
@@ -35,6 +19,7 @@ BuildRequires : R-bridgesampling
 BuildRequires : R-coda
 BuildRequires : R-ggplot2
 BuildRequires : R-gridExtra
+BuildRequires : R-loo
 BuildRequires : R-matrixStats
 BuildRequires : R-nleqslv
 BuildRequires : R-rstan
@@ -65,10 +50,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1540474276
+export SOURCE_DATE_EPOCH=1540479678
 
 %install
-export SOURCE_DATE_EPOCH=1540474276
+export SOURCE_DATE_EPOCH=1540479678
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
