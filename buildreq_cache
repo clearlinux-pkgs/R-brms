@@ -1,11 +1,13 @@
-2.5.0
+2.6.0
 R-Rcpp
+R-StanHeaders
 R-abind
 R-backports
 R-bayesplot
 R-bridgesampling
 R-coda
 R-ggplot2
+R-gridExtra
 R-loo
 R-matrixStats
 R-nleqslv
