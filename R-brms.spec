@@ -4,7 +4,7 @@
 #
 Name     : R-brms
 Version  : 2.7.0
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/brms_2.7.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/brms_2.7.0.tar.gz
 Summary  : Bayesian Regression Models using 'Stan'
