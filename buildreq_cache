@@ -1,4 +1,5 @@
-2.8.0
+2.7.0
+R-Brobdingnag
 R-Rcpp
 R-StanHeaders
 R-abind
@@ -8,6 +9,7 @@ R-bridgesampling
 R-coda
 R-future
 R-ggplot2
+R-ggridges
 R-gridExtra
 R-loo
 R-matrixStats
