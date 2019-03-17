@@ -1,4 +1,4 @@
-2.7.0
+2.8.0
 R-Brobdingnag
 R-Rcpp
 R-StanHeaders
@@ -6,6 +6,7 @@ R-abind
 R-backports
 R-bayesplot
 R-bridgesampling
+R-callr
 R-coda
 R-future
 R-ggplot2
@@ -15,6 +16,7 @@ R-loo
 R-matrixStats
 R-nleqslv
 R-pkgbuild
+R-prettyunits
 R-rstan
 R-rstantools
 R-shinystan
