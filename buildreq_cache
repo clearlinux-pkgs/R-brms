@@ -12,10 +12,12 @@ R-callr
 R-coda
 R-colourpicker
 R-crosstalk
+R-dplyr
 R-dygraphs
 R-future
 R-ggplot2
 R-ggridges
+R-glue
 R-gridExtra
 R-gtools
 R-htmltools
@@ -36,4 +38,6 @@ R-shiny
 R-shinystan
 R-shinythemes
 R-threejs
+R-tidyselect
 R-xts
+R-zoo
