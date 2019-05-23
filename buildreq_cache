@@ -1,4 +1,4 @@
-2.8.0
+2.9.0
 R-Brobdingnag
 R-DT
 R-Rcpp
@@ -30,6 +30,7 @@ R-mvtnorm
 R-nleqslv
 R-pkgbuild
 R-prettyunits
+R-processx
 R-purrr
 R-rsconnect
 R-rstan
