@@ -38,6 +38,7 @@ R-rstantools
 R-shiny
 R-shinystan
 R-shinythemes
+R-stringi
 R-threejs
 R-tidyselect
 R-xts
