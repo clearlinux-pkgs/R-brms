@@ -4,7 +4,7 @@
 #
 Name     : R-brms
 Version  : 2.14.4
-Release  : 53
+Release  : 54
 URL      : https://cran.r-project.org/src/contrib/brms_2.14.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/brms_2.14.4.tar.gz
 Summary  : Bayesian Regression Models using 'Stan'
@@ -22,6 +22,7 @@ Requires: R-glue
 Requires: R-loo
 Requires: R-matrixStats
 Requires: R-nleqslv
+Requires: R-projpred
 Requires: R-rstan
 Requires: R-rstantools
 Requires: R-shinystan
@@ -66,10 +67,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1605889601
+export SOURCE_DATE_EPOCH=1605895653
 
 %install
-export SOURCE_DATE_EPOCH=1605889601
+export SOURCE_DATE_EPOCH=1605895653
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
