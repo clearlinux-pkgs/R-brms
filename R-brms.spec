@@ -4,7 +4,7 @@
 #
 Name     : R-brms
 Version  : 2.16.3
-Release  : 67
+Release  : 68
 URL      : https://cran.r-project.org/src/contrib/brms_2.16.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/brms_2.16.3.tar.gz
 Summary  : Bayesian Regression Models using 'Stan'
@@ -67,10 +67,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637624441
+export SOURCE_DATE_EPOCH=1640985174
 
 %install
-export SOURCE_DATE_EPOCH=1637624441
+export SOURCE_DATE_EPOCH=1640985174
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
